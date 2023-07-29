@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0d0b0b;
+}
+
+header {
+  background-color: #0d0b0b;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #f2f2f2;
+}
+#home{
+  color: #f2f2f2;
+}
+#home:hover{
+width: 100px;
+height: 37px;
+background-color: blue;
+border-radius: 20px;
+
+}
+
+h1 {
+  margin: 0;
+}
+
+.tabs {
+  display: flex;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+main {
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.view {
+  flex-basis: 100%;
+  color: #f2f2f2;
+}
+
+@media screen and (min-width: 768px) {
+  .view {
+    flex-basis: 48%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .view {
+    flex-basis: 30%;
+  }
+}
+#gridView{
+  display: flex;
+  
+}
+#gridTab{
+ width: 50%;
+ background-color: #0d0b0b;
+ color: #f2f2f2;
+}
+#gridTab:hover{
+  color: blue;
+  border-bottom:4px solid blue ;
+ }
+
+#listTab{
+  width: 50%;
+  background-color: #0d0b0b;
+  color: #f2f2f2;
+}
+#listTab:hover{
+  color: blue;
+  border-bottom:4px solid blue ;
+}
+
+
+.card {
+  border: 1px solid #2e2d2d;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  color: #f2f2f2;
+  width: 200px;
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.card p {
+  margin: 4px 0;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
